@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+	int h;
+	int w;
+	std::cout << "Please enter height of stars : ";
+	std::cin >> h;
+	std::cout << "Please enter width of stars : ";
+	std::cin >> w;
+	for (int height = 0; height < h; ++height)
+	{
+		for (int width = 0; width < w; ++width)
+		{
+			std::cout << "* " ;
+		}
+		std::cout << std::endl;
+	}
+}
