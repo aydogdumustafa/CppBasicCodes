@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main ( )
+{
+	while (true)
+	{
+		double num;
+		std::cout << "Please Enter Positive Number : ";
+		std::cin >> num;
+		std::cout << "Root : " << std::sqrt(num) << std::endl;
+	}
+}
