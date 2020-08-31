@@ -9,7 +9,7 @@ int main() {
 			continue; // if user enters negative number ,"continue" transfers program to end of while loop 
 		}
 		if (num == 0) { 
-			break; // if user enters "0" ,"break" transfers program to next line after while loop 
+			break; // if user enters "0" ,"break" transfers program to next line after while loop  
 		}
 		std::cout << "Square root is :"
 			<< std::sqrt(num) << std::endl;
