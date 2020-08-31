@@ -1,5 +1,9 @@
 #include <iostream>
 
+//Program creates flag by using stars
+//Height and width are adjustable
+
+
 int main() {
 	int h;
 	int w;
