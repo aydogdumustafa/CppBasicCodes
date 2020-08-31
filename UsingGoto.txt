@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main()
+{
+	std::cout << "1 for first option, 2 for second option : ";
+	int a;
+	std::cin >> a;
+	if (a == 1)
+	{
+		goto firstOption;
+	}
+	if (a == 2)
+	{
+		goto secondOption;
+	}
+	goto end;
+firstOption: std::cout << "You have chosen option 1" << std::endl;
+	goto end;
+secondOption: std::cout << "You have chosen option 2" << std::endl;
+end: return 0;
+
+
+}
