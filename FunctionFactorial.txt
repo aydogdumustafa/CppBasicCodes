@@ -1,0 +1,20 @@
+#include <iostream>
+
+//program that calculates factorial by requesting input
+
+int factorial(int number) 
+{
+	int result = 1;
+	for (int n = 1; n <= number; ++n)
+	{
+		result = result * n;
+	}
+	return result;
+}
+
+int main()
+{
+	int number;
+	std::cin >> number;
+	std::cout << factorial(number) << std::endl ;
+}
